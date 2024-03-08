@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "2c1dkS4AlQCqD9fe9zScsjv/P1tbdLrfQMDfJb+tRYuza4G1Vf14YSrwMkCaVM26hpnIQh7kh2Otr+wijKnnJw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Ali\\Desktop\\Deploy_api_weather-\\api_weather\\api_weather\\api_weather.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Ali\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

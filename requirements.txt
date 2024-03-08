@@ -1,0 +1,6 @@
+PySide6==6.2.2
+requests
+
+
+# pyside6-uic main_Ui.ui > ui_main.py
+# pyside6-rcc resources.qrc -o resources_rc.py

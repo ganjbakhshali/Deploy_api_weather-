@@ -1,0 +1,1016 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>833</width>
+    <height>537</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:rgb(245, 250, 254)</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <item row="0" column="0">
+     <widget class="QWidget" name="icon_only_widget" native="true">
+      <property name="styleSheet">
+       <string notr="true">QWidget{
+	background-color:rgb(31, 149, 239)
+}
+QPushButton{
+	color : white;
+	height:30px;
+	border:none;
+	border-radius:10px;
+}
+QPushButton:checked {
+    background-color: #F5FAFE;
+    color: #1F95EF;
+    font-weight: bold;
+}</string>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_3">
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_3">
+         <item>
+          <widget class="QLabel" name="label_7">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="resources.qrc">:/icons/images/profile_pic2.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout">
+         <property name="spacing">
+          <number>15</number>
+         </property>
+         <property name="topMargin">
+          <number>15</number>
+         </property>
+         <item>
+          <widget class="QPushButton" name="btn_dash_1">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset resource="resources.qrc">
+             <normaloff>:/icons/images/dashboard_white.png</normaloff>
+             <normalon>:/icons/images/dashboard.png</normalon>:/icons/images/dashboard_white.png</iconset>
+           </property>
+           <property name="checkable">
+            <bool>true</bool>
+           </property>
+           <property name="autoExclusive">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="btn_prof_1">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset resource="resources.qrc">
+             <normaloff>:/icons/images/profile_white.png</normaloff>
+             <normalon>:/icons/images/profile.png</normalon>:/icons/images/profile_white.png</iconset>
+           </property>
+           <property name="checkable">
+            <bool>true</bool>
+           </property>
+           <property name="autoExclusive">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="btn_mess_1">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset resource="resources.qrc">
+             <normaloff>:/icons/images/messages_white.png</normaloff>
+             <normalon>:/icons/images/messages.png</normalon>:/icons/images/messages_white.png</iconset>
+           </property>
+           <property name="checkable">
+            <bool>true</bool>
+           </property>
+           <property name="autoExclusive">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="btn_notif_1">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset resource="resources.qrc">
+             <normaloff>:/icons/images/notifications_white.png</normaloff>
+             <normalon>:/icons/images/notifications.png</normalon>:/icons/images/notifications_white.png</iconset>
+           </property>
+           <property name="checkable">
+            <bool>true</bool>
+           </property>
+           <property name="autoExclusive">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="btn_sett_1">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset resource="resources.qrc">
+             <normaloff>:/icons/images/settings_white.png</normaloff>
+             <normalon>:/icons/images/settings.png</normalon>:/icons/images/settings_white.png</iconset>
+           </property>
+           <property name="checkable">
+            <bool>true</bool>
+           </property>
+           <property name="autoExclusive">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <spacer name="verticalSpacer">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>176</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_6">
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset resource="resources.qrc">
+           <normaloff>:/icons/images/log_out_white.png</normaloff>:/icons/images/log_out_white.png</iconset>
+         </property>
+         <property name="checkable">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QWidget" name="icon_name_widget" native="true">
+      <property name="styleSheet">
+       <string notr="true">QWidget{
+	background-color:rgb(31, 149, 239);
+	color:white;
+}
+QPushButton{
+	color : white;
+	text-align: left;
+	height:30px;
+	border:none;
+	padding-left:10px;
+	border-top-left-radius:10px;
+	border-bottom-left-radius:10px;
+}
+QPushButton:checked {
+    background-color: #F5FAFE;
+    color: #1F95EF;
+    font-weight: bold;
+}</string>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_4">
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_2">
+         <item>
+          <widget class="QLabel" name="label_2">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="resources.qrc">:/icons/images/profile_pic2.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_3">
+           <property name="font">
+            <font>
+             <pointsize>12</pointsize>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="text">
+            <string>SideBar</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_2">
+         <property name="spacing">
+          <number>15</number>
+         </property>
+         <property name="topMargin">
+          <number>15</number>
+         </property>
+         <item>
+          <widget class="QPushButton" name="btn_dash_2">
+           <property name="text">
+            <string>Dashboard</string>
+           </property>
+           <property name="icon">
+            <iconset resource="resources.qrc">
+             <normaloff>:/icons/images/dashboard_white.png</normaloff>
+             <normalon>:/icons/images/dashboard.png</normalon>:/icons/images/dashboard_white.png</iconset>
+           </property>
+           <property name="checkable">
+            <bool>true</bool>
+           </property>
+           <property name="autoExclusive">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="btn_prof_2">
+           <property name="text">
+            <string>Profile</string>
+           </property>
+           <property name="icon">
+            <iconset resource="resources.qrc">
+             <normaloff>:/icons/images/profile_white.png</normaloff>
+             <normalon>:/icons/images/profile.png</normalon>:/icons/images/profile_white.png</iconset>
+           </property>
+           <property name="checkable">
+            <bool>true</bool>
+           </property>
+           <property name="autoExclusive">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="btn_mess_2">
+           <property name="text">
+            <string>Messages</string>
+           </property>
+           <property name="icon">
+            <iconset resource="resources.qrc">
+             <normaloff>:/icons/images/messages_white.png</normaloff>
+             <normalon>:/icons/images/messages.png</normalon>:/icons/images/messages_white.png</iconset>
+           </property>
+           <property name="checkable">
+            <bool>true</bool>
+           </property>
+           <property name="autoExclusive">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="btn_notif_2">
+           <property name="text">
+            <string>Notifications</string>
+           </property>
+           <property name="icon">
+            <iconset resource="resources.qrc">
+             <normaloff>:/icons/images/notifications_white.png</normaloff>
+             <normalon>:/icons/images/notifications.png</normalon>:/icons/images/notifications_white.png</iconset>
+           </property>
+           <property name="checkable">
+            <bool>true</bool>
+           </property>
+           <property name="autoExclusive">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="btn_sett_2">
+           <property name="text">
+            <string>Settings</string>
+           </property>
+           <property name="icon">
+            <iconset resource="resources.qrc">
+             <normaloff>:/icons/images/settings_white.png</normaloff>
+             <normalon>:/icons/images/settings.png</normalon>:/icons/images/settings_white.png</iconset>
+           </property>
+           <property name="checkable">
+            <bool>true</bool>
+           </property>
+           <property name="autoExclusive">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <spacer name="verticalSpacer_2">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>176</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_12">
+         <property name="text">
+          <string>Sign out</string>
+         </property>
+         <property name="icon">
+          <iconset resource="resources.qrc">
+           <normaloff>:/icons/images/log_out_white.png</normaloff>:/icons/images/log_out_white.png</iconset>
+         </property>
+         <property name="checkable">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="0" column="2">
+     <widget class="QWidget" name="main_menu" native="true">
+      <layout class="QGridLayout" name="gridLayout_2">
+       <item row="0" column="0" colspan="2">
+        <widget class="QWidget" name="heder_widget" native="true">
+         <layout class="QHBoxLayout" name="horizontalLayout_4">
+          <item>
+           <widget class="QPushButton" name="btn_menu">
+            <property name="styleSheet">
+             <string notr="true">border:none</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="icon">
+             <iconset resource="resources.qrc">
+              <normaloff>:/icons/images/menu.png</normaloff>:/icons/images/menu.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>20</width>
+              <height>20</height>
+             </size>
+            </property>
+            <property name="checkable">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <spacer name="horizontalSpacer_2">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>158</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout">
+            <item>
+             <widget class="QLineEdit" name="lineEdit"/>
+            </item>
+            <item>
+             <widget class="QPushButton" name="btn_search">
+              <property name="text">
+               <string/>
+              </property>
+              <property name="icon">
+               <iconset resource="resources.qrc">
+                <normaloff>:/icons/images/search.png</normaloff>:/icons/images/search.png</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>20</width>
+                <height>20</height>
+               </size>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <spacer name="horizontalSpacer">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>158</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pushButton_15">
+            <property name="styleSheet">
+             <string notr="true">border:none</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="icon">
+             <iconset resource="resources.qrc">
+              <normaloff>:/icons/images/image.png</normaloff>:/icons/images/image.png</iconset>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="label_4">
+         <property name="text">
+          <string>Today</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QLabel" name="label_5">
+         <property name="text">
+          <string>Tomorrow</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0">
+        <widget class="QStackedWidget" name="page_today">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 255);
+QPushButton{
+
+	border:none;
+
+
+}</string>
+         </property>
+         <widget class="QWidget" name="page">
+          <widget class="QLabel" name="label_6">
+           <property name="geometry">
+            <rect>
+             <x>40</x>
+             <y>30</y>
+             <width>71</width>
+             <height>16</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Temperature:</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lbl_today_temp">
+           <property name="geometry">
+            <rect>
+             <x>130</x>
+             <y>30</y>
+             <width>49</width>
+             <height>16</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_8">
+           <property name="geometry">
+            <rect>
+             <x>40</x>
+             <y>70</y>
+             <width>71</width>
+             <height>16</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Wind Speed:</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lbl_today_wind">
+           <property name="geometry">
+            <rect>
+             <x>130</x>
+             <y>70</y>
+             <width>49</width>
+             <height>16</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_10">
+           <property name="geometry">
+            <rect>
+             <x>40</x>
+             <y>110</y>
+             <width>61</width>
+             <height>16</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Condition:</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lbl_description">
+           <property name="geometry">
+            <rect>
+             <x>130</x>
+             <y>110</y>
+             <width>49</width>
+             <height>16</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QLabel" name="condition_img">
+           <property name="geometry">
+            <rect>
+             <x>60</x>
+             <y>150</y>
+             <width>181</width>
+             <height>141</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="pushButton_16">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>30</y>
+             <width>31</width>
+             <height>24</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton{
+border:none;
+}</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset resource="resources.qrc">
+             <normaloff>:/icons/images/temp.png</normaloff>:/icons/images/temp.png</iconset>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="pushButton_17">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>70</y>
+             <width>31</width>
+             <height>24</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton{
+border:none;
+}</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset resource="resources.qrc">
+             <normaloff>:/icons/images/wind.png</normaloff>:/icons/images/wind.png</iconset>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="pushButton_18">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>110</y>
+             <width>31</width>
+             <height>24</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton{
+border:none;
+}</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset resource="resources.qrc">
+             <normaloff>:/icons/images/condition.png</normaloff>:/icons/images/condition.png</iconset>
+           </property>
+          </widget>
+         </widget>
+         <widget class="QWidget" name="page_2"/>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="QStackedWidget" name="page_tomorrow">
+         <property name="styleSheet">
+          <string notr="true">background-color:rgb(255, 255, 255);
+
+QPushButton{
+
+	border:none;
+
+
+}</string>
+         </property>
+         <widget class="QWidget" name="page_3">
+          <widget class="QLabel" name="lbl_tomorrow_temp">
+           <property name="geometry">
+            <rect>
+             <x>150</x>
+             <y>30</y>
+             <width>49</width>
+             <height>16</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_13">
+           <property name="geometry">
+            <rect>
+             <x>50</x>
+             <y>30</y>
+             <width>81</width>
+             <height>16</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Temperature:</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_14">
+           <property name="geometry">
+            <rect>
+             <x>50</x>
+             <y>70</y>
+             <width>71</width>
+             <height>16</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Wind Speed:</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lbl_tomorrow_wind">
+           <property name="geometry">
+            <rect>
+             <x>150</x>
+             <y>70</y>
+             <width>49</width>
+             <height>16</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="pushButton_20">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>70</y>
+             <width>31</width>
+             <height>24</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton{
+border:none;
+}</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset resource="resources.qrc">
+             <normaloff>:/icons/images/wind.png</normaloff>:/icons/images/wind.png</iconset>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="pushButton_19">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>30</y>
+             <width>31</width>
+             <height>24</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton{
+border:none;
+}</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset resource="resources.qrc">
+             <normaloff>:/icons/images/temp.png</normaloff>:/icons/images/temp.png</iconset>
+           </property>
+          </widget>
+         </widget>
+         <widget class="QWidget" name="page_4"/>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources>
+  <include location="resources.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>btn_menu</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>icon_only_widget</receiver>
+   <slot>setHidden(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>265</x>
+     <y>39</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>82</x>
+     <y>371</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_menu</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>icon_name_widget</receiver>
+   <slot>setVisible(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>275</x>
+     <y>42</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>222</x>
+     <y>319</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_sett_1</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>btn_sett_2</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>46</x>
+     <y>292</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>109</x>
+     <y>291</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_notif_1</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>btn_notif_2</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>50</x>
+     <y>244</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>112</x>
+     <y>248</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_mess_1</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>btn_mess_2</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>59</x>
+     <y>201</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>116</x>
+     <y>203</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_prof_1</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>btn_prof_2</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>45</x>
+     <y>153</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>108</x>
+     <y>157</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_dash_1</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>btn_dash_2</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>53</x>
+     <y>116</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>116</x>
+     <y>116</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_dash_2</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>btn_dash_1</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>104</x>
+     <y>99</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>68</x>
+     <y>103</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_prof_2</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>btn_prof_1</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>116</x>
+     <y>147</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>67</x>
+     <y>148</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_mess_2</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>btn_mess_1</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>114</x>
+     <y>191</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>59</x>
+     <y>191</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_notif_2</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>btn_notif_1</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>103</x>
+     <y>235</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>73</x>
+     <y>236</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_sett_2</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>btn_sett_1</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>107</x>
+     <y>281</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>71</x>
+     <y>284</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_6</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>MainWindow</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>41</x>
+     <y>513</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>36</x>
+     <y>591</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_12</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>MainWindow</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>132</x>
+     <y>509</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>123</x>
+     <y>581</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

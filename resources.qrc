@@ -1,0 +1,30 @@
+<RCC>
+  <qresource prefix="icons">
+    <file>images/temp.png</file>
+    <file>images/condition.png</file>
+    <file>images/profile_pic2.png</file>
+    <file>images/clear.png</file>
+    <file>images/cludy.png</file>
+    <file>images/dashboard.png</file>
+    <file>images/dashboard_white.png</file>
+    <file>images/few_cloudes.png</file>
+    <file>images/image.png</file>
+    <file>images/log_out.png</file>
+    <file>images/log_out_white.png</file>
+    <file>images/menu.png</file>
+    <file>images/messages.png</file>
+    <file>images/messages_white.png</file>
+    <file>images/notifications.png</file>
+    <file>images/notifications_white.png</file>
+    <file>images/profile.png</file>
+    <file>images/profile_pic.png</file>
+    <file>images/profile_white.png</file>
+    <file>images/rain.png</file>
+    <file>images/rain_snow.png</file>
+    <file>images/search.png</file>
+    <file>images/settings.png</file>
+    <file>images/settings_white.png</file>
+    <file>images/snow.png</file>
+    <file>images/wind.png</file>
+  </qresource>
+</RCC>
